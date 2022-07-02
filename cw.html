@@ -1,0 +1,40 @@
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Class8A</title>
+    
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="logo.jpg" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body style="background-color:#9eed95;">
+    <div class="topnav" id="myTopnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        <a id="homebtn" onclick="home()" class="active">Home</a>
+        <a id="cwbtn" onclick="classwork()">Classwork</a>
+        <a id="hwbtn" onclick="Homework()">Homework</a>
+        <a id="abtbtn" onclick="about()">About</a>
+        <a id="sugbtn" onclick="suggest()">Suggest</a>
+        <h2 class="header">Absentee Helper</h2>
+      
+      </div>
+      <div style="float:right ; width: fit-content;" id="searchbar">
+        <button onclick="search()" id="searchbtn" style="float: right;margin-right:5px ;border-top-right-radius:7px ;border-bottom-right-radius:7px ;">Search</button>
+        <input  maxlength="2" id="yearinput"  class="dateinput" type="number" placeholder="YY">
+        <input onkeyup="move3()" maxlength="2" id="monthinput" class="dateinput" type="number" placeholder="MM">
+        <input onkeyup="move2()" maxlength="2" id="dayinput" style="border-top-left-radius:7px ;border-bottom-left-radius:7px   ;" class="dateinput" type="number" placeholder="DD">
+       
+    </div><br>
+      <div id="220622" class="content">
+        <h2>22-6-2022</h2>
+        <p>
+            english-Example <br>
+            maths-example
+        </p>
+      </div><br>
+      <script src="main.js"></script>
+      <script src="searcher.js"></script>
+</body>
+</html>
