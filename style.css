@@ -151,7 +151,7 @@ body{
   margin-bottom:-10;
 }
 #searchbar{
-  
+  border:2px solid black;
   border-radius: 7px;
   height: fit-content;
 }
