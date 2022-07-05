@@ -6,6 +6,10 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+  function App(){
+    window.location="app.html";
+
+  }
   function home(){
     window.location="index.html";
 
