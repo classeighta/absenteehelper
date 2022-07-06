@@ -179,3 +179,10 @@ body{
   font-weight: 540;
   text-decoration: underline;
 }
+.iconsug{
+  transition: all .2s ease-in-out; 
+  
+}
+.iconsug:hover{
+    	transform: scale(1.5); 
+}
