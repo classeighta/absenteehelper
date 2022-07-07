@@ -32,7 +32,7 @@ function myFunction() {
   }
   function openwhatsapp(){
 
-    window.open("https://wa.me/919999810031", "_blank");
+    window.open("wa.link/91175v", "_blank");
 
   }
   function openmail(){
