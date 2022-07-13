@@ -38,3 +38,17 @@ function myFunction() {
   function openmail(){
     window.open("mailto:shwaansgaba@gmail.com","Hi")
   }
+var loggedin="false";
+  function login(){
+    
+    password=document.getElementById("Pass").value;
+    if(password=="Hello"){
+      window.location="index.html";
+      loggedin=true;
+    }
+}
+function check(){
+  if(loggedin="false"){
+    window.location="login.html";
+  }
+}
