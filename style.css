@@ -190,3 +190,62 @@ body{
 .iconsug:hover{
     	transform: scale(1.5); 
 }
+.container{
+ color: white;
+  background-color: #0D1117;
+  padding: 0px;
+  border: 2px solid grey;
+  padding-inline:6.25% ;
+  border-radius: 20px;
+  height: 350px;
+  overflow-y: scroll;
+
+}
+.a{
+color:white;
+text-decoration: none;
+}
+.a:hover{
+  text-decoration: underline;
+}
+ul{
+  padding-left: 2.25%;
+}
+
+#myInput {
+  background-size:20px  ;
+  background-image: url("search-icon.svg"); /* Add a search icon to input */
+  background-position: 5px 4px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+height:30px; 
+  font-size: 16px; /* Increase font-size */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-top: 25px; /* Add some space below the input */
+  width: 360.5px;
+ float: right;
+ border-radius: 10px;
+ padding-left: 27px;
+}
+@media(min-width:700px){
+  .brtag{
+    display: none;
+  }
+ 
+}
+@media(max-width:700px){
+  #myInput{
+    float: left;
+    margin-top: -15px;
+
+  }
+  ul{
+    margin-top: -19px;
+  }
+ 
+}
+@media(max-width:405px){
+  #myInput{
+    width:260px ;
+  }
+ 
+}
